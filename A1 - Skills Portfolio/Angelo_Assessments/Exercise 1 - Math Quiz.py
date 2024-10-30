@@ -1,4 +1,4 @@
-import tkinter as tk  # Importing Tkinter as Tk for class calls
+import tkinter as tk  # Importing Tkinter as Tk for class calls cause apparently i need em
 from tkinter import font  # Importing font for styling text
 import random  # Importing random for generating random numbers
 
@@ -22,7 +22,7 @@ class Mainwindow(tk.Tk):  # Main window class
         tk.Tk.__init__(self, *args, **kwargs)
         
         # Main Window Config
-        self.title("Math Quiz")
+        self.title("Math Quiz") 
         self.geometry("500x500")
         self.config(bg="#151515")
 
